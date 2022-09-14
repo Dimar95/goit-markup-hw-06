@@ -400,6 +400,7 @@ margin: 0;
 
     color: #FFFFFF;
     margin-bottom: 20px;
+    margin-top: 0;
 }
 .footer-icon-list{
     justify-content: flex-start;
@@ -442,6 +443,85 @@ margin: 0;
 .footer-contact .item:hover, .footer-contact .item:focus{
     color: var(--accent-text-color);
 }
+.social-link{
+    margin-right: 70px;
+}
+.subscription{
+    display: flex;
+    position: relative;
+}
+.footer-form{
+
+}
+.footer-form label{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.footer-form .subscription-email::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+
+}
+.subscription-email{
+    border: 1px solid ;
+    border-color: rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    width: 358px;
+
+    padding: 15px 16px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-right: 12px;
+}
+.subscription-email:focus{
+    border-color: rgba(255, 255, 255, 0.3);
+}
+.button-subscription{
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+
+    padding: 10px 62px 10px 28px;
+    background-color: var(--accent-text-color);
+    border-radius: 4px;
+    border-color:transparent ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.subscription-icon{
+    fill: #fff;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 38%;
+    right: 25px;
+}
+
+
+
+/* Модальное окно */
+
+
+
 
 .backdrop{
     background-color: rgba(0, 0, 0, 0.2);

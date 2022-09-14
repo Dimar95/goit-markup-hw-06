@@ -333,7 +333,7 @@
             </ul>
         </address>
         </div>
-        <div >
+        <div class="social-link">
             <p class="footer-title">приєднуйтесь</p>
                         <ul class="team-icon-list footer-icon-list">
                             <li>
@@ -366,8 +366,24 @@
                             </li>
                         </ul>
         </div>
+
+        <div class="subscription">
+            <form action="" class="footer-form">
+                <label for="email">Підпишіться на розсилку</label>
+                <input type="email" name="email" id="email" placeholder="E-mail" class="subscription-email">
+
+                <input type="submit" value="Підписатися" class="button-subscription">
+
+            </form>
+            <span>
+                <svg class="subscription-icon">
+                    <use href="./images/icon.svg#send"></use>
+                </svg>
+            </span>
+        </div>
         </div>
     </footer>
+
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="button" type="button" data-modal-close>
